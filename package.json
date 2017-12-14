@@ -4,6 +4,8 @@
   "description": "A simple API service that can perform a search for images that are related to a given search phrase.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/nuhman/image-search/issues"
   },
-  "homepage": "https://github.com/nuhman/image-search#readme"
+  "homepage": "https://github.com/nuhman/image-search#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "qwant-api": "^0.3.0"    
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.7"
+  }
 }

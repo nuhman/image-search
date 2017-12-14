@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IMAGE SEARCH API</title>
+    </head>
+    <body>
+        <div>
+            <h1><u>image-search api</u></h1>
+            <h3>Image Search Abstraction Layer built for <a href="https://freecodecamp.org">freecodecamp</a> API <a href="http://www.freecodecamp.org/challenges/image-search-abstraction-layer">Project</a></h3>
+            <p><b>Promises</b>:</p>
+            <ul>
+                <li>You can get the image URLs, alt text and page urls for a set of images relating to a given search string.</li>
+                <li>You can paginate through the responses by adding a ?offset=2 parameter to the URL.</li>
+                <li>You can get a list of the most recently submitted search strings</li>
+            </ul>
+            <hr />
+            <p><b>Examples calls</b>:</p>
+            <ul>
+                <li><code>https://imagexplore.herokuapp.com/api/cars</code></li>
+                <li><code>https://imagexplore.herokuapp.com/api/black%20box</code></li>
+                <li><code>https://imagexplore.herokuapp.com/api/cars?offset=5</code></li>                                
+            </ul>
+            <p><b>View recent searches</b>:</p>
+            <ul>
+                <li><code>https://imagexplore.herokuapp.com/latest</code></li>
+            </ul>
+            <hr />
+            <p><b>Example output</b>:</p>
+            <ul>
+                <li>
+                    <code>
+                            [
+                                {
+                                    "image-url":"http://images.fonearena.com/blog/wp-content/uploads/2011/04/NokiaE6_WHTE_FRT.jpg",
+                                    "alt-text":"Nokia E6-00 Official Photos",
+                                    "page-url":"http://www.fonearena.com/blog/35201/nokia-e6-00-official-photos.html"
+                                },
+                                ... 
+                            ]
+                    </code>
+                </li>
+            </ul>
+            <hr />
+            <p>API: <a href="https://qwant.com">Qwant</a></p>
+        </div>
+    </body>
+</html>
