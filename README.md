@@ -2,7 +2,7 @@
 ### A simple API service that can perform a search for images that are related to a given search phrase. 
 ---  
   
- Live: https://imagexplore.herokuapp.com
+ Live: https://low-second.glitch.me/
   
 **Promises:**  
 
@@ -12,12 +12,12 @@
 
 **Examples calls:**
   
- * `https://imagexplore.herokuapp.com/api/cars`
- * `https://imagexplore.herokuapp.com/api/black%20box`
- * `https://imagexplore.herokuapp.com/api/cars?offset=5`
+ * `https://low-second.glitch.me/api/cars`
+ * `https://low-second.glitch.me/api/black%20box`
+ * `https://low-second.glitch.me/api/cars?offset=5`
 
 **View recent searches:**
- * `https://imagexplore.herokuapp.com/latest`
+ * `https://low-second.glitch.me/latest`
 
 **Example output:**  
   
@@ -26,7 +26,7 @@
     { 
       "image-url":"http://images.fonearena.com/blog/wp-content/uploads/2011/04/NokiaE6_WHTE_FRT.jpg",  
       "alt-text":"Nokia E6-00 Official Photos",  
-      "page-url":"http://www.fonearena.com/blog/35201/nokia-e6-00-official-photos.html" }     
+      "page-url":"http://www.fonearena.com/blog/35201/nokia-e6-00-official-photos.html"     
      },     
     { 
       "image-url":"https://i.blogs.es/b54f0b/nokia-1110/original.jpg",  
