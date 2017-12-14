@@ -10,11 +10,10 @@ app.use(bodyparser.json());
 
 var db;
 
-var mlab_username = 'nuhman7'; //your mlab username
-var mlab_password = 'iamnuhman7'; //your mlab password
-var appUrl = 'https://imagesearches7.herokuapp.com/'; //your app url with a trailing backslash.. example: https://nanos.herokuapp.com/
+var mlab_username = ''; //your mlab username
+var mlab_password = ''; //your mlab password
 // mlab_url would be given to you upon registration in mlab.com
-var mlab_url = 'mongodb://'+mlab_username+':'+mlab_password+'@ds127506.mlab.com:27506/espresso-cloud';
+var mlab_url = 'mongodb://'+mlab_username+':'+mlab_password+'@XXXXXXX.mlab.com:27506/YOUR_DB_NAME';
 
 
 MongoClient.connect(mlab_url, (err, database) => {    
