@@ -20,7 +20,7 @@
   "homepage": "https://github.com/nuhman/image-search#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "mongodb": "^2.2.33",
     "qwant-api": "^0.3.0"    
   },
